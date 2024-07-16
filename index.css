@@ -1,17 +1,20 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("zebrak.jpg");
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
     text-align: center;
+    color: white;
     height: 100vh;
 }
 
 .container {
-    background: white;
-    max-width: 80%;
+    background: black;
+    width: 80%;
     margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
+    padding: 20px;
+    border: white solid 5px;
+    
 }
 
 h1 {
@@ -26,25 +29,21 @@ h2 {
 }
 
 button {
-    border: 1px solid black;
+    border: black solid 2px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: #02b016;
 }
 
 #save-btn {
-    background: #1C7947;
-}
-
-#save-el {
-    font-weight: bold;
+    background: #0283d9;
 }
 
